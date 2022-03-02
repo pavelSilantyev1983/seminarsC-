@@ -74,7 +74,7 @@ else
 
 
 
-
+/*
 // 4 задача
 
 Console.WriteLine("введите натуральное число");
@@ -86,3 +86,4 @@ while (neg_n <= n)
     Console.WriteLine(neg_n);
     neg_n ++;
 }
+*/
