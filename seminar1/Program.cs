@@ -87,3 +87,98 @@ while (neg_n <= n)
     neg_n ++;
 }
 */
+
+
+
+
+
+
+
+// ДОМАШНЕЕ ЗАДАНИЕ
+
+/*
+// 1задача
+Console.Write("введите первое число ");
+int value1 = Convert.ToInt32(Console.ReadLine());
+Console.Write("введите второе число ");
+int value2 = Convert.ToInt32(Console.ReadLine());
+if(value1 > value2)
+{
+    Console.Write("большее число ");
+    Console.Write(value1);
+}
+else{
+    Console.Write("большее число ");
+    Console.Write(value2);
+}
+*/
+
+/*
+// 2 задача
+Console.Write("введите первое число ");
+int value1 = Convert.ToInt32(Console.ReadLine());
+Console.Write("введите второе число ");
+int value2 = Convert.ToInt32(Console.ReadLine());
+Console.Write("введите третье число ");
+int value3 = Convert.ToInt32(Console.ReadLine());
+
+if(value1 > value2)
+{
+    if (value1 > value3)
+        {
+            Console.Write("самое большое число ");
+            Console.Write(value1);
+        }
+    else
+        {
+        Console.Write("самое большое число ");
+        Console.Write(value3);
+        }
+    }                
+
+else
+    {
+        if (value2 > value3)
+        {
+            Console.Write("самое большое число ");
+            Console.Write(value2); 
+        }
+        else{
+        Console.Write("самое большое число ");
+        Console.Write(value3); 
+        }   
+    }
+*/
+
+
+/*
+//3 задача
+Console.Write("введите любое число ");
+int value = Convert.ToInt32(Console.ReadLine());
+if (value/2)
+{
+    Console.WriteLine("это четное число ");
+}
+else
+{
+    Console.WriteLine("это нечетное число ");
+}
+*/
+
+/*
+//4 задача
+Console.Write("введите любое положительное число ");
+int N = Convert.ToInt32(Console.ReadLine());
+int X[i];
+while (X[i]<=N)
+{
+    if (X[i]/2)
+
+    {
+        Console.Write("X[i]");
+    else{   
+    i ++
+    }
+    }
+}
+*/
