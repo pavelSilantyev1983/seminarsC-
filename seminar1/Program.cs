@@ -29,7 +29,7 @@ else
 */
 
 
-
+/*
 //3 задача
 
 Console.WriteLine("введите номер дня недели");
@@ -70,5 +70,19 @@ else
 {
     Console.WriteLine("нет такого дня недели ж");
 }
+*/
 
 
+
+
+// 4 задача
+
+Console.WriteLine("введите натуральное число");
+int n = Convert.ToInt32(Console.ReadLine());
+int neg_n = n*(-1);
+
+while (neg_n <= n)
+{
+    Console.WriteLine(neg_n);
+    neg_n ++;
+}
