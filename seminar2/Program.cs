@@ -18,6 +18,7 @@ int number = new Random().Next(10,99);
 Console.WriteLine("current number is" + number + "max part is" + FindMaxNum(number));
 */
 
+
 /*
 int Max(int num){
     int n1 = (num/100)*10;
@@ -27,6 +28,9 @@ int Max(int num){
 int number = new Random().Next(100,999);
 Console.WriteLine(number+ "-->"+Max(number));
 */
+
+
+
 /*
 void Ppp(int num1, int num2){
     if (num1 % num2 ==0){
