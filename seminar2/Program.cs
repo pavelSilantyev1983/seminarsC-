@@ -27,7 +27,7 @@ int Max(int num){
 int number = new Random().Next(100,999);
 Console.WriteLine(number+ "-->"+Max(number));
 */
-
+/*
 void Ppp(int num1, int num2){
     if (num1 % num2 ==0){
         Console.WriteLine("второе число кратное первому");
@@ -42,3 +42,5 @@ int number1 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("введите второе число");
 int number2 = Convert.ToInt32(Console.ReadLine());
 Ppp(number1,number2);
+*/
+
