@@ -78,12 +78,34 @@ prprpr(number1,number2,number3);
 
 
 //домашняя работа
-//задача10
+//задача10 вывести вторую цифру из трехзначного числа
+/*
+Console.Write("введите трехзначное число");
+int value = Convert.ToInt32(Console.ReadLine());
+int Num1 = value % 100;
+int Num2 = Num1 / 10;
+
+Console.WriteLine("вторая цифра числа равна");
+Console.WriteLine(Num2);
+*/
 
 
 //задача13
+//выводит третью цифру числа или сообщает что ее нет
+Console.Write("введите любое целое число");
+int value = Convert.ToInt32(Console.ReadLine());
+if(value > 99){
+int Num1 = value % 1000;
+int Num2 = Num1 / 100;
 
+Console.WriteLine("третья цифра числа равна");
+Console.WriteLine(Num2);
+}
+else{
+Console.WriteLine("третьей цифры в числе нет");
+}
 
+/*
 //задача15 про выходные
 Console.WriteLine("введите номер дня недели, а я скажу выходной ли это");
 int number = Convert.ToInt32(Console.ReadLine());
@@ -123,5 +145,5 @@ else
 {
     Console.WriteLine("нет такого дня недели ж");
 }
-
+*/
 
